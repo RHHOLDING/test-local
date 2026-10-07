@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="en">
+    <head >
+                <meta charset="utf-8"/>
+<meta name="title" content="Partner portal"/>
+<meta name="robots" content="INDEX,FOLLOW"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="format-detection" content="telephone=no"/>
+<title>Partner portal</title>
+                <link rel="stylesheet" type="text/css" media="all" href="/static/frontend/Hantech/ac/en_US/mage/calendar.css" />
+<link rel="stylesheet" type="text/css" media="all" href="/static/frontend/Hantech/ac/en_US/css/styles-m.css" />
+<link rel="stylesheet" type="text/css" media="all" href="/static/frontend/Hantech/ac/en_US/css/hantech.css" />
+<link rel="stylesheet" type="text/css" media="all" href="/static/frontend/Hantech/ac/en_US/jquery/uppy/dist/uppy-custom.css" />
+<link rel="stylesheet" type="text/css" media="screen and (min-width: 768px)" href="/static/frontend/Hantech/ac/en_US/css/styles-l.css" />
+<link rel="stylesheet" type="text/css" media="print" href="/static/frontend/Hantech/ac/en_US/css/print.css" />
+<link rel="stylesheet" type="text/css" media="all" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" />
+<link rel="icon" type="image/x-icon" href="/static/frontend/Hantech/ac/en_US/Magento_Theme/favicon.ico" />
+<link rel="shortcut icon" type="image/x-icon" href="/static/frontend/Hantech/ac/en_US/Magento_Theme/favicon.ico" />
+
+
+
+<script type="text/javascript" defer="defer" src="/static/frontend/Hantech/ac/en_US/js/hantech.js"></script>
+
+
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link  rel="stylesheet" type="text/css"  media="all" href="/media/styles.css" />            
+    <meta name="robots" content="noindex,nofollow"><script src="/static/frontend/Hantech/ac/en_US/js/demo.js" defer></script></head>
+    <body data-container="body"
+          data-mage-init='{"loaderAjax": {}, "loader": { "icon": "/static/frontend/Hantech/ac/en_US/images/loader-2.gif"}}'
+        id="html-body" class="ht-installer installer-portal-index page-layout-1column">
+        
+
+
+<div class="cookie-status-message" id="cookie-status">
+    The store will not work correctly when cookies are disabled.</div>
+
+
+
+
+    <noscript>
+        <div class="message global noscript">
+            <div class="content">
+                <p>
+                    <strong>JavaScript seems to be disabled in your browser.</strong>
+                    <span>
+                        For the best experience on our site, be sure to turn on Javascript in your browser.                    </span>
+                </p>
+            </div>
+        </div>
+    </noscript>
+
+<div class="page-wrapper"><header class="page-header"><div class="panel wrapper"><div class="panel header"><div class="ht-topbar">
+    <a href="tel:+4972190996879" class="ht-topbar__item">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>
+        +49 721 90996879
+    </a>
+    <a href="mailto:info@hantech.eu" class="ht-topbar__item">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5z"/></svg>
+        info@hantech.eu
+    </a>
+    <span class="ht-topbar__item ht-topbar__usp">✓ Fixed-price installation across Germany</span>
+    <a href="/installer/register/" class="ht-topbar__item ht-topbar__partner">
+        Become an installation partner →
+    </a>
+</div>
+<a class="action skip contentarea"
+   href="#contentarea">
+    <span>
+        Skip to Content    </span>
+</a>
+<ul class="header links">    <li class="greet welcome" data-bind="scope: 'customer'">
+        <!-- ko if: customer().fullname  -->
+        <span class="logged-in"
+              data-bind="text: new String('Welcome, %1!').
+              replace('%1', customer().fullname)">
+        </span>
+        <!-- /ko -->
+        <!-- ko ifnot: customer().fullname  -->
+        <span class="not-logged-in"
+              data-bind="text: 'Welcome to HANTECH'"></span>
+                <!-- /ko -->
+    </li>
+        
+<!-- BLOCK customer --><!-- /BLOCK customer --><li class="link authorization-link" data-label="or">
+    <a href="#"        >Sign In</a>
+</li>
+<li><a href="#" id="idho5cqpdS" >Create an Account</a></li></ul></div></div><div class="header content"><span data-action="toggle-nav" class="action nav-toggle"><span>Toggle Nav</span></span>
+<a
+    class="logo"
+    href="/"
+    title="HANTECH"
+    aria-label="store logo">
+    <img src="/static/frontend/Hantech/ac/en_US/images/logo.webp"
+         title="HANTECH"
+         alt="HANTECH"
+            width="180"            height="37"    />
+</a>
+
+<div data-block="minicart" class="minicart-wrapper">
+    <a class="action showcart" href="#"
+       data-bind="scope: 'minicart_content'">
+        <span class="text">My Cart</span>
+        <span class="counter qty empty"
+              data-bind="css: { empty: !!getCartParam('summary_count') == false && !isLoading() },
+               blockLoader: isLoading">
+            <span class="counter-number">
+                <!-- ko if: getCartParam('summary_count') -->
+                <!-- ko text: getCartParam('summary_count').toLocaleString(window.LOCALE) --><!-- /ko -->
+                <!-- /ko -->
+            </span>
+            <span class="counter-label">
+            <!-- ko if: getCartParam('summary_count') -->
+                <!-- ko text: getCartParam('summary_count').toLocaleString(window.LOCALE) --><!-- /ko -->
+                <!-- ko i18n: 'items' --><!-- /ko -->
+            <!-- /ko -->
+            </span>
+        </span>
+    </a>
+            <div class="block block-minicart"
+             data-role="dropdownDialog"
+             data-mage-init='{"dropdownDialog":{
+                "appendTo":"[data-block=minicart]",
+                "triggerTarget":".showcart",
+                "timeout": "2000",
+                "closeOnMouseLeave": false,
+                "closeOnEscape": true,
+                "triggerClass":"active",
+                "parentClass":"active",
+                "buttons":[]}}'>
+            <div id="minicart-content-wrapper" data-bind="scope: 'minicart_content'">
+                <!-- ko template: getTemplate() --><!-- /ko -->
+            </div>
+                    </div>
+            
+</div>
+<div class="block block-search">
+    <div class="block block-title"><strong>Search</strong></div>
+    <div class="block block-content">
+        <form class="form minisearch" id="search_mini_form"
+              action="#" method="get">
+                        <div class="field search">
+                <label class="label" for="search" data-role="minisearch-label">
+                    <span>Search</span>
+                </label>
+                <div class="control">
+                    <input id="search"
+                           data-mage-init='{
+                            "quickSearch": {
+                                "formSelector": "#search_mini_form",
+                                "url": "https://magento.local/search/ajax/suggest/",
+                                "destinationSelector": "#search_autocomplete",
+                                "minSearchLength": "3"
+                            }
+                        }'
+                           type="text"
+                           name="q"
+                           value=""
+                           placeholder="Search&#x20;entire&#x20;store&#x20;here..."
+                           class="input-text"
+                           maxlength="128"
+                           role="combobox"
+                           aria-haspopup="false"
+                           aria-autocomplete="both"
+                           autocomplete="off"
+                           aria-expanded="false"/>
+                    <div id="search_autocomplete" class="search-autocomplete"></div>
+                    <div class="nested">
+    <a class="action advanced" href="#" data-action="advanced-search">
+        Advanced Search    </a>
+</div>
+                </div>
+            </div>
+            <div class="actions">
+                <button type="submit"
+                        title="Search"
+                        class="action search"
+                        aria-label="Search"
+                >
+                    <span>Search</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+<ul class="compare wrapper"><li class="item link compare" data-bind="scope: 'compareProducts'" data-role="compare-products-link">
+    <a class="action compare no-display" title="Compare&#x20;Products"
+       data-bind="attr: {'href': compareProducts().listUrl}, css: {'no-display': !compareProducts().count}"
+    >
+        Compare Products        <span class="counter qty" data-bind="text: compareProducts().countCaption"></span>
+    </a>
+</li>
+
+</ul></div></header>    <div class="sections nav-sections">
+                <div class="section-items nav-sections-items"
+             data-mage-init='{"tabs":{"openedState":"active"}}'>
+                                            <div class="section-item-title nav-sections-item-title"
+                     data-role="collapsible">
+                    <a class="nav-sections-item-switch"
+                       data-toggle="switch" href="#store.menu">
+                        Menu                    </a>
+                </div>
+                <div class="section-item-content nav-sections-item-content"
+                     id="store.menu"
+                     data-role="content">
+                    
+<nav class="navigation" data-action="navigation">
+    <ul data-mage-init='{"menu":{"responsive":true, "expanded":true, "position":{"my":"left top","at":"left bottom"}}}'>
+        <li  class="level0 nav-1 category-item first level-top"><a href="/split-air-conditioners.html"  class="level-top" ><span>Split air conditioners</span></a></li><li  class="level0 nav-2 category-item level-top"><a href="/multi-split-air-conditioners.html"  class="level-top" ><span>Multi-split air conditioners</span></a></li><li  class="level0 nav-3 category-item level-top"><a href="/heat-pump-systems.html"  class="level-top" ><span>Heat pump systems</span></a></li><li  class="level0 nav-4 category-item level-top"><a href="/quick-connect-systems.html"  class="level-top" ><span>Quick Connect systems</span></a></li><li  class="level0 nav-5 category-item last level-top"><a href="/accessories.html"  class="level-top" ><span>Accessories</span></a></li>            </ul>
+</nav>
+                </div>
+                                            <div class="section-item-title nav-sections-item-title"
+                     data-role="collapsible">
+                    <a class="nav-sections-item-switch"
+                       data-toggle="switch" href="#store.links">
+                        Account                    </a>
+                </div>
+                <div class="section-item-content nav-sections-item-content"
+                     id="store.links"
+                     data-role="content">
+                    <!-- Account links -->                </div>
+                                    </div>
+    </div>
+<main id="maincontent" class="page-main"><a id="contentarea" tabindex="-1"></a>
+<div class="page messages"><div data-placeholder="messages"></div>
+<div data-bind="scope: 'messages'">
+    <!-- ko if: cookieMessagesObservable() && cookieMessagesObservable().length > 0 -->
+    <div aria-atomic="true" role="alert" class="messages" data-bind="foreach: {
+        data: cookieMessagesObservable(), as: 'message'
+    }">
+        <div data-bind="attr: {
+            class: 'message-' + message.type + ' ' + message.type + ' message',
+            'data-ui-id': 'message-' + message.type
+        }">
+            <div data-bind="html: $parent.prepareMessageForHtml(message.text)"></div>
+        </div>
+    </div>
+    <!-- /ko -->
+
+    <div aria-atomic="true" role="alert" class="messages" data-bind="foreach: {
+        data: messages().messages, as: 'message'
+    }, afterRender: purgeMessages">
+        <div data-bind="attr: {
+            class: 'message-' + message.type + ' ' + message.type + ' message',
+            'data-ui-id': 'message-' + message.type
+        }">
+            <div data-bind="html: $parent.prepareMessageForHtml(message.text)"></div>
+        </div>
+    </div>
+</div>
+
+
+</div><div class="columns"><div class="column main"><input name="form_key" type="hidden" value="ACaml0Gyvcyc43Xk" /><div id="authenticationPopup" data-bind="scope:'authenticationPopup', style: {display: 'none'}">
+            <!-- ko template: getTemplate() --><!-- /ko -->
+        
+</div>
+
+
+
+
+<div class="ht-portal">
+    <header class="ht-portal__top">
+        <div>
+            <small>Partner portal · preview</small>
+            <h1>Good morning, Kältetechnik Müller</h1>
+        </div>
+        <label class="ht-switch">
+            <input type="checkbox" checked>
+            <span></span>
+            <b>Available for new jobs</b>
+        </label>
+    </header>
+
+    <div class="ht-portal__alert">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 2 21h20zM12 10v5m0 3v.01" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div><b>Liability insurance expires in 21 days.</b> Upload the renewed certificate to keep receiving jobs.</div>
+        <a class="ht-btn ht-btn--sm ht-btn--ghost" href="#">Upload</a>
+    </div>
+
+    <section class="ht-kpis">
+        <div><span>New requests</span><b>2</b></div>
+        <div><span>Scheduled</span><b>3</b></div>
+        <div><span>Action needed</span><b class="warn">1</b></div>
+        <div><span>Payout pending</span><b>€1,560</b></div>
+    </section>
+
+    <div class="ht-portal__cols">
+        <section>
+            <h2>New job requests</h2>
+                            <article class="ht-req">
+                    <div class="ht-req__head">
+                        <span class="ht-pill ht-pill--red">Respond within 3h 40m</span>
+                        <small>HT-J-10482</small>
+                    </div>
+                    <b>Split 3.5 kW · Standard package</b>
+                    <div class="ht-req__meta">
+                        <span>76133 Karlsruhe · 4.1 km</span>
+                        <span>Requested KW 24</span>
+                        <span>Payout <b>€520</b></span>
+                    </div>
+                    <div class="ht-req__actions">
+                        <button type="button" class="ht-btn ht-btn--ghost ht-btn--sm">Decline</button>
+                        <button type="button" class="ht-btn ht-btn--red ht-btn--sm">Accept job</button>
+                    </div>
+                </article>
+                            <article class="ht-req">
+                    <div class="ht-req__head">
+                        <span class="ht-pill ht-pill--red">Respond within 22h 10m</span>
+                        <small>HT-J-10491</small>
+                    </div>
+                    <b>Multi-split 2 rooms · Standard package</b>
+                    <div class="ht-req__meta">
+                        <span>76275 Ettlingen · 9.8 km</span>
+                        <span>Requested KW 25</span>
+                        <span>Payout <b>€780</b></span>
+                    </div>
+                    <div class="ht-req__actions">
+                        <button type="button" class="ht-btn ht-btn--ghost ht-btn--sm">Decline</button>
+                        <button type="button" class="ht-btn ht-btn--red ht-btn--sm">Accept job</button>
+                    </div>
+                </article>
+                    </section>
+        <section>
+            <h2>My jobs</h2>
+            <ul class="ht-jobs">
+                                    <li>
+                        <div><b>Müller</b><small>76227 Karlsruhe-Durlach</small></div>
+                        <div class="ht-jobs__status ht-tone--info">
+                            <span>Appointment scheduled</span><small>Thu, 13 Jun · 09:00</small>
+                        </div>
+                    </li>
+                                    <li>
+                        <div><b>Schneider</b><small>76646 Bruchsal</small></div>
+                        <div class="ht-jobs__status ht-tone--warn">
+                            <span>Extra work · awaiting customer</span><small>+2 m line set · €95</small>
+                        </div>
+                    </li>
+                                    <li>
+                        <div><b>Weber</b><small>76437 Rastatt</small></div>
+                        <div class="ht-jobs__status ht-tone--error">
+                            <span>Missing information</span><small>Serial number photo missing</small>
+                        </div>
+                    </li>
+                                    <li>
+                        <div><b>Fischer</b><small>76185 Karlsruhe</small></div>
+                        <div class="ht-jobs__status ht-tone--ok">
+                            <span>Approved for payment</span><small>Payout €520 · 14 Jun</small>
+                        </div>
+                    </li>
+                            </ul>
+        </section>
+    </div>
+
+    <nav class="ht-portal__tabs" aria-label="Portal">
+        <a class="is-active" href="#"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Jobs</a>
+        <a href="#"><svg viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="15" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M4 10h16M9 3v4m6-4v4" stroke="currentColor" stroke-width="2"/></svg>Calendar</a>
+        <a href="#"><svg viewBox="0 0 24 24"><path d="M7 3h7l5 5v13H7z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>Documents</a>
+        <a href="#"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4" fill="none" stroke="currentColor" stroke-width="2"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6" fill="none" stroke="currentColor" stroke-width="2"/></svg>Profile</a>
+    </nav>
+</div>
+</div></div></main><footer class="page-footer"><div class="ht-footer">
+    <div class="ht-wrap ht-footer__grid">
+        <div class="ht-footer__brand">
+            <img src="/static/frontend/Hantech/ac/en_US/images/logo.webp" alt="HANTECH" width="160" height="33">
+            <p>Premium air conditioning and heat pumps — delivered or installed at a fixed price by certified partners across Germany.</p>
+            <div class="ht-footer__badges">
+                <span>F-Gas certified partners</span><span>5-year warranty</span><span>Secure payment</span>
+            </div>
+        </div>
+        <nav>
+            <h4>Shop</h4>
+            <a href="/split-air-conditioners.html">Split air conditioners</a>
+            <a href="/multi-split-air-conditioners.html">Multi-split systems</a>
+            <a href="/heat-pump-systems.html">Heat pump systems</a>
+            <a href="/quick-connect-systems.html">Quick Connect systems</a>
+            <a href="/accessories.html">Accessories</a>
+        </nav>
+        <nav>
+            <h4>Service</h4>
+            <a href="/#ht-package">Installation package</a>
+            <a href="/#ht-choice">With or without installation</a>
+            <a href="#">My account &amp; orders</a>
+            <a href="#">Contact</a>
+        </nav>
+        <nav>
+            <h4>Installation partners</h4>
+            <a href="/installer/register/">Become a partner</a>
+            <a href="/installer/login/">Partner login</a>
+            <a href="/installer/portal/">Portal preview</a>
+        </nav>
+        <div class="ht-footer__contact">
+            <h4>Contact</h4>
+            <a href="tel:+4972190996879">+49 721 90996879</a>
+            <a href="mailto:info@hantech.eu">info@hantech.eu</a>
+            <p>Mon–Fri · 08:00–18:00</p>
+        </div>
+    </div>
+    <div class="ht-wrap ht-footer__legal">
+        <span>© 2026 HANTECH. All rights reserved.</span>
+        <span><a href="#">Imprint</a><a href="#">Privacy</a><a href="#">Terms</a></span>
+    </div>
+</div>
+</footer>
+</div>    </body>
+</html>
